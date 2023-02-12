@@ -1,17 +1,21 @@
-# Too slow
+# First option
+
+# n = 10**10010
+# m = p = 2*n
+
+# i = 1
+# while m:
+#     m = m * i // (2 * i + 1)
+#     p += m
+#     i += 1
+
+# p = str(p)
+
 # def pi(k):
-#     n = 10 ** 10_010
-#     m = p = 2 * n
-#     i = 1
-#     while m:
-#         m = m * i // (2 * i + 1)
-#         p += m
-#         i += 1
-#     return int(str(p)[k])
+#     return int(p[k])
 
 
-# print(pi(10_000))
-
+# Second option
 
 import math
 # Adaptation from craig-wood.com/nick/articles/pi-chudnovsky/
